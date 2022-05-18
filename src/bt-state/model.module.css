@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+.wrapper {
+  text-align: center;
+}
+
+.model {
+  width: 200px;
+  height: 250px;
+}
+
+.glasses-wrapper {
+  background-color: #ffffff;
+  margin: 20px auto;
+  width: 90%;
+  /* height: 150px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.model-glass {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.glass-on {
+  position: absolute;
+  width: 110px;
+  /* left: 44%; */
+  top: 63px;
+  opacity: 0.8;
+}
+.glass {
+  width: calc(100% / 6);
+  padding: 10px;
+}
+
+.glass img {
+  width: 100%;
+}
+h3,
+h4,
+p {
+  margin: 0;
+}
+p {
+  font-size: 12px;
+}
